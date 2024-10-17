@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.18.7",
+    "@nuxthub/core": "^0.7.33",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "drizzle-orm": "^0.35.1",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.26.2",
+    "wrangler": "^3.81.0"
+  }
+}
